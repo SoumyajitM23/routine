@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+}
+
+body
+	{
+		background-image: url("./bck-img.jpg");
+		background-repeat: inherit;
+	}
+h1{
+	color: white;
+	
+}
+.container{
+/*	display: flex;*/
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.block1{
+	display: flex;
+	flex-direction:row ;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.block2{
+/*	display: flex;*/
+}
+.main{
+	/*top:220px;
+	left:-300px ;*/
+/*	float: left;*/
+	margin-top: 15px;
+	background-color: whitesmoke;
+	height:100px;
+	width:500px;
+	border: 2px white;
+	padding: 5px;
+	position: relative;
+}
+.box{
+	animation: box 4s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+
+	position: absolute;
+}
+@keyframes box{
+	from{
+		left:400px;
+	}
+	to{
+		left:2px;
+	}
+}
+.style
+{
+	color:green;
+	background-color: yellow;
+	width:100%;
+	padding:5px;
+	text-align:center;
+	margin:auto;
+	border: 2px solid red;
+
+}
+.day
+{
+	color:green;
+	background-color: lightgoldenrodyellow;
+	padding:5px;
+	margin-left: 5px;
+}
+.style2
+{
+	color:orangered;
+	background-color: whitesmoke;
+	border: 2px dashed blue;
+	padding:5px;
+	margin-left: 5px;
+	
+}
+td{
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+a:visited{
+	color: red;
+}
+a:hover{
+	color: purple;
+}
+ul li{
+list-style-type: square;	
+	//list-style-image: url("C:\Users\Soumyajit Mondal\Downloads\technology-neon-background-mechanical-engineering-drawings-technical-drawing-vector-illustration-scheme-locksmith-plan-187056375.jpg");
+}
+
+
+.faculty{
+	background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-073.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ef48caa87980815f77343e682d6324ee");
+	background-position: top right;
+	width: 48%;
+	min-width: 400px;
+	border: 2px solid black;
+	font-size: 22px;
+	box-shadow: -5px 5px 5px yellow;
+	padding: 25px;
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.faculty img{
+	border-radius: 25%;
+	width: 150px;
+	height: 150px;
+}
+
+
+.faculty-img{
+	margin: 40px;
+	align-self: center;
+}
+
+.faculty-content{
+	color: black;
+	margin-left: 30px;
+	margin-right: 60px;
+	font-style:oblique;
+	font-size: 1.2rem;
+	min-width: 300px;
+	align-self: center;
+}
+
+.b{
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210814/pngtree-blue-purple-simple-gradient-background-image_760572.jpg");
+	/*float: left;*/
+	width:48%;
+	min-width: 400px;
+	/*margin:auto;*/
+	height: 250px;
+	margin: 10px;
+	/*padding-left:5px ;*/
+	background-color: lightcyan;
+	font-style:oblique;
+	border: 2px black solid;
+	font-size: 17px;
+	box-shadow: 5px 5px 5px 2px yellow;
+	/*overflow-y: scroll;*/
+}
+
+.b img{
+	padding-right:5px;
+}
+
+
